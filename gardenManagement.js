@@ -19,6 +19,6 @@ if (timeOfDay === "evening" || timeOfDay === "night") {
 //Soil moisture loop
 while (soilMoisture < 40) {
   soilMoisture += 5;
-  if (soilMoisture > 40) soilMoisture = 40; // ensure we don't go above 40
+  if (soilMoisture > 40) soilMoisture = 40; 
   console.log(soilMoisture);
 }
